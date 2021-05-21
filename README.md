@@ -46,7 +46,7 @@ The database schema is a star schema and it is consisted of :
 5. **time** : timestamps of records in songplays broken down into specific units  <br>
    **(start_time, hour, day, week, month, year, weekday)**<br><br>
 
-![](img/schema.JPG)
+![](img/schema.jpg)
 
 
 --- 
@@ -107,7 +107,7 @@ The project has the following files:
 
     * **STEP 1**: Set Up an SSH Tunnel to the Master Node Using Dynamic Port Forwarding. Dynamic Port Forwarding allows a communication not on a single port, but across a range of ports. This port forwarding is created using -D parameter. This option will make SSH acts as a SOCKS proxy server. SOCKS5 is an internet protocol which routes packets between a server and a client using a proxy server. A SOCKS proxy is simply a SSH tunnel in which specific applications forward their traffic down the tunnel to the remote server. ([More Info](https://zaiste.net/posts/ssh-port-forwarding/))
     
-    ![](img/proxy_server.JPG) <br><br>
+    ![](img/proxy_server.jpg) <br><br>
 
     * Enable the dynamic port forwarding using the command : ssh -i spark-cluster.pem -N -D 8157 hadoop@Master_public_DNS
     * Notes: 
