@@ -20,7 +20,7 @@ A startup called Sparkify wants to analyze the data that they've been collecting
 
 The purpose of the project is to build an ETL pipeline on a Spark Cluster which it loads the data from the S3 bucket, create the dimensional tables and then save them into S3 bucket :
 
-![](img/Project_DataLake.JPG)
+![](img/Project_DataLake.jpg)
 
 
 ---
